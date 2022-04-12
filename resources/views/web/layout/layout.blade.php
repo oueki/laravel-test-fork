@@ -13,7 +13,7 @@
 <body class="h-full overflow-hidden">
 
 
-    <div class="h-full flex w-20">
+    <div class="h-full flex ">
 
         @include('web.layout.sidebar')
 
