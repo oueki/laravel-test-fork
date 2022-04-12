@@ -16,9 +16,9 @@ use App\Http\Controllers\PostController;
 */
 
 
-Route::get('/', function () {
-    return view('web.layout.layout');
-});
+// Route::get('/', function () {
+//     return view('web.layout.layout');
+// });
 
 Route::get('/posts/show-api', [PostController::class, 'showApi'])->name('posts.show.api');
 
